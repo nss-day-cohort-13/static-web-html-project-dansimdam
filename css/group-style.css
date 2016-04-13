@@ -1,0 +1,199 @@
+/* CSS for 1st group project - Fortune Cookie Store */
+
+
+/* Sets heigth/width to actual size vs + padding + border */
+* {
+	box-sizing: border-box;
+}
+
+/* Default font-style */
+body {
+	font-style: arial, sans-serif;
+	margin-top:160px;
+	padding: 0;
+	margin: 0;
+}
+
+.new-font {
+	font-family: 'Mr Bedfort', cursive;
+	letter-spacing: 8px;
+	font-size: 1em;
+	font-weight: 700;
+	padding-top: 20px;
+	width: 100%;
+}
+
+/* Link Styling LVHA */
+a:link {
+	color: brown;
+}
+
+a:visited {
+	color: brown;
+}
+
+a:hover {
+	color: white;
+}
+
+a:active {
+	color: red;
+}
+
+
+
+/* Wrapper styling */
+.wrapper {
+	width: 100%;
+	margin: 150px auto 0;
+	background-color: rgb(251, 237, 187);
+}
+
+#effects {
+	box-shadow: 0 0 30px rgba(0,0,0,1.2);
+}
+
+.page-nav li {
+	list-style-type: none;
+}
+
+
+.page-nav li:hover {
+	background-color: rgb(175, 50, 0);
+	transition: 0.5s ease;
+}
+
+.page-nav a {
+	width: 100%;
+	background-color: transparent;
+	color: black;
+	/*padding: 5px 5px;*/
+	text-decoration: none;
+}
+
+.nav-links {
+	width: 100%;
+	position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 0;
+}
+
+.page-header h1 {
+	text-align: left;
+}
+
+/* Main Section */
+
+.main-section {
+	width: 90%;
+	margin: 50px auto 0;
+	background-color: rgb(251, 237, 187);
+	/*border: 1px solid black;*/
+	position: relative;
+	text-align: center;
+}
+
+.main-section img {
+	width: 80%;
+}
+
+/* Header styling */
+.page-header {
+	height:150px;
+	background-color: rgb(251, 237, 187);
+	position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  text-align: center;
+  border-bottom: 3px solid black;
+  /*border: 1px solid black;*/
+}
+
+/* Footer styling */
+.page-footer {
+	background-color: rgb(251, 237, 187);
+	/*position: absolute;*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  padding: 0;
+}
+
+
+/* Clear fix to extend boarder around entire element */
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* media query */
+@media only screen and (min-width: 900px) {
+
+body {
+	font-style: arial, sans-serif;
+	margin-top:100px;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 75px auto 0;
+	background-color: rgb(251, 237, 187);
+}
+
+.page-header {
+	height:100px;
+}
+
+.page-nav li {
+	display: inline-block;
+}
+
+.page-nav {
+	margin: auto;
+	background-color: rgb(251, 237, 187);
+}
+
+.page-nav a {
+	width: 100%;
+	background-color: rgb(251, 237, 187);
+	color: black;
+	padding: 39px 20px;
+	text-decoration: none;
+	margin-right: -4px;
+	/*border-radius: 4px 4px 4px 4px;*/
+}
+
+.page-nav li a:hover {
+	background-color: rgb(175, 50, 0);
+	transition: 0.5s ease;
+}
+
+.nav-links {
+	position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding-top: 25px;
+}
+
+.main-section {
+	margin: 40px auto 0;
+	position: relative;
+}
+
+.new-font {
+	font-family: 'Mr Bedfort', cursive;
+	letter-spacing: 10px;
+	font-size: 1.5em;
+	font-weight: 700;
+	padding-top: 30px;
+	width: 100%;
+}
+
+}
