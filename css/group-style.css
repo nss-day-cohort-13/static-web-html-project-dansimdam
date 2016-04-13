@@ -14,6 +14,15 @@ body {
 	margin: 0;
 }
 
+.new-font {
+	font-family: 'Mr Bedfort', cursive;
+	letter-spacing: 8px;
+	font-size: 1em;
+	font-weight: 700;
+	padding-top: 20px;
+	width: 100%;
+}
+
 /* Link Styling LVHA */
 a:link {
 	color: brown;
@@ -31,17 +40,17 @@ a:active {
 	color: red;
 }
 
+
+
 /* Wrapper styling */
 .wrapper {
 	width: 100%;
-	margin: auto;
-	border: 1px solid black; /* comment out later - for visual testing */
-	background-color: yellow;
+	margin: 150px auto 0;
+	background-color: rgb(251, 237, 187);
 }
 
-/* Nav styling */
-.page-nav {
-	background-color: tan;
+#effects {
+	box-shadow: 0 0 30px rgba(0,0,0,1.2);
 }
 
 .page-nav li {
@@ -49,27 +58,26 @@ a:active {
 }
 
 
-.page-nav li a:hover {
-	background-color: black;
+.page-nav li:hover {
+	background-color: rgb(175, 50, 0);
 	transition: 0.5s ease;
 }
-
 
 .page-nav a {
 	width: 100%;
 	background-color: transparent;
-	color: white;
+	color: black;
 	/*padding: 5px 5px;*/
 	text-decoration: none;
 }
 
 .nav-links {
-	width: 80%;
+	width: 100%;
 	position: fixed;
   right: 0;
   top: 0;
   left: 0;
-  padding-top: 0px;
+  padding: 0;
 }
 
 .page-header h1 {
@@ -80,35 +88,38 @@ a:active {
 
 .main-section {
 	width: 90%;
-	margin: 175px auto 0;
-	background-color: tan;
-	border: 1px solid black;
+	margin: 50px auto 0;
+	background-color: rgb(251, 237, 187);
+	/*border: 1px solid black;*/
 	position: relative;
+	text-align: center;
+}
+
+.main-section img {
+	width: 80%;
 }
 
 /* Header styling */
 .page-header {
 	height:150px;
-	background-color: tan;
+	background-color: rgb(251, 237, 187);
 	position: fixed;
   right: 0;
   top: 0;
   left: 0;
   z-index: 10;
-  padding: 1rem;
   text-align: center;
-  padding: 0;
+  border-bottom: 3px solid black;
   /*border: 1px solid black;*/
 }
 
 /* Footer styling */
 .page-footer {
-	background-color: tan;
-	position: absolute;
+	background-color: rgb(251, 237, 187);
+	/*position: absolute;*/
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
   text-align: center;
   padding: 0;
 }
@@ -129,6 +140,12 @@ body {
 	margin-top:100px;
 }
 
+.wrapper {
+	width: 100%;
+	margin: 75px auto 0;
+	background-color: rgb(251, 237, 187);
+}
+
 .page-header {
 	height:100px;
 }
@@ -138,21 +155,22 @@ body {
 }
 
 .page-nav {
-	background-color: tan;
+	margin: auto;
+	background-color: rgb(251, 237, 187);
 }
 
 .page-nav a {
 	width: 100%;
-	background-color: transparent;
-	color: white;
-	padding: 40px 20px;
+	background-color: rgb(251, 237, 187);
+	color: black;
+	padding: 39px 20px;
 	text-decoration: none;
 	margin-right: -4px;
 	/*border-radius: 4px 4px 4px 4px;*/
 }
 
 .page-nav li a:hover {
-	background-color: black;
+	background-color: rgb(175, 50, 0);
 	transition: 0.5s ease;
 }
 
@@ -165,20 +183,17 @@ body {
 }
 
 .main-section {
-	margin: 50px auto 0;
+	margin: 40px auto 0;
 	position: relative;
 }
 
-.header-img {
-	display: block;
-	position: fixed;
-  right: 0;
-  top: 0;
-  left: 0;
-  height: 100px;
-  padding-top: 25px;
-  border: 1px solid black;
-
+.new-font {
+	font-family: 'Mr Bedfort', cursive;
+	letter-spacing: 10px;
+	font-size: 1.5em;
+	font-weight: 700;
+	padding-top: 30px;
+	width: 100%;
 }
 
 }
