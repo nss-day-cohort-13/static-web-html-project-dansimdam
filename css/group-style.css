@@ -134,6 +134,11 @@ a:active {
 	margin: auto;
 }
 
+/* Card styling */
+.card {
+	min-width: 200px;
+}
+
 /* Clear fix to extend boarder around entire element */
 .clearfix::after {
 	content: "";
@@ -206,7 +211,7 @@ body {
 }
 
 #productsContainer {
-	width: 40%;
+	width: 100%;
 	margin: auto;
 }
 
@@ -215,4 +220,17 @@ body {
 	margin: auto;
 }
 
+/* Display 4 Across */
+
+.card {
+	display: inline;
+	float: left;
+	width: 20%;
+	border: 1px solid lightblue;
+	min-width: 225px;
+	/*margin: 0px;*/
+}
+
+.page-footer {
+	clear: both;
 }
