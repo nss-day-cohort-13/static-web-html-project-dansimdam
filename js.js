@@ -56,12 +56,12 @@ var productElement= document.getElementById("productsContainer");
 
 for (var i = 0; i < products.length; i++ ) {
 	var eachProduct =products[i];
-	productElement.innerHTML += "<p class='productTitle'>" + eachProduct.title + "</p>" +
-	"<p class=''>" + eachProduct.description + "</p>" + 
-	"<p>" + eachProduct.price + "</p>" + 
-	"<img src='"+eachProduct.url+"' alt=''class='productImages'> ";
+	productElement.innerHTML += "<div class='card'><p class='productTitle'>" + eachProduct.title + "</p>" +
+	"<p class='des'>" + eachProduct.description + "</p>" +
+	"<p>" + eachProduct.price + "</p>" +
+	"<img src='"+eachProduct.url+"' alt='img'class='productImages'></div> ";
 	console.log("each product", eachProduct);
-	
+
 }
 
 
