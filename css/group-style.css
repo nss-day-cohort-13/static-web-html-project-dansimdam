@@ -8,7 +8,7 @@
 
 /* Default font-style */
 body {
-	font-style: arial, sans-serif;
+	font-family: arial, sans-serif;
 	margin-top:160px;
 	padding: 0;
 	margin: 0;
@@ -246,4 +246,8 @@ body {
 
 .full {
 	text-align: justify;
+}
+
+.jobs {
+	font-family: arial, sans-serif;
 }
