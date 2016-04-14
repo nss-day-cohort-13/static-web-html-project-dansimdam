@@ -124,6 +124,15 @@ a:active {
   padding: 0;
 }
 
+#productsContainer {
+	width: 50%;
+	margin: auto;
+}
+
+.staffBios {
+	width: 50%;
+	margin: auto;
+}
 
 /* Clear fix to extend boarder around entire element */
 .clearfix::after {
@@ -194,6 +203,16 @@ body {
 	font-weight: 700;
 	padding-top: 30px;
 	width: 100%;
+}
+
+#productsContainer {
+	width: 40%;
+	margin: auto;
+}
+
+.staffBios {
+	width: 40%;
+	margin: auto;
 }
 
 }
